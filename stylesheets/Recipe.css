@@ -1,70 +1,64 @@
-/* General body styling */
 body {
-    font-family: Arial, sans-serif; /* Font for the entire page */
-    line-height: 1.6; /* Improve readability */
-    color: #333; /* Dark text color for contrast */
-    background-color: #f4f4f4; /* Light background color */
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f4f4f4;
 }
 
-/* Main content styling */
 main {
-    padding: 20px; /* Padding around main content */
-    text-align: center; /* Center align text */
-    background: linear-gradient(135deg, darkgreen, yellow); /* Diagonal gradient background */
-    border-radius: 15px; /* Rounded corners */
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); /* Enhanced shadow for depth */
-    margin: 20px auto; /* Center the main content horizontally */
-    max-width: 600px; /* Limit the width of the main content */
-    position: relative; /* For adding pseudo-elements */
+    padding: 20px;
+    text-align: center;
+    background: linear-gradient(135deg, darkgreen, yellow);
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    margin: 20px auto;
+    max-width: 600px;
+    position: relative;
 }
 
-/* Decorative element behind the main content */
 main::before {
-    content: ""; /* Empty content for the decorative shape */
-    position: absolute; /* Positioning it absolutely */
-    top: -30px; /* Position above the content */
-    left: -30px; /* Position to the left of the content */
-    width: calc(100% + 60px); /* Extend beyond the content width */
-    height: calc(100% + 60px); /* Extend beyond the content height */
-    background: radial-gradient(circle, rgba(255, 255, 255, 0.1), transparent); /* Radial gradient for subtle effect */
-    border-radius: 50%; /* Circular shape */
-    z-index: -1; /* Place behind the content */
+    content: "";
+    position: absolute;
+    top: -30px;
+    left: -30px;
+    width: calc(100% + 60px);
+    height: calc(100% + 60px);
+    background: radial-gradient(circle, rgba(255, 255, 255, 0.1), transparent);
+    border-radius: 50%;
+    z-index: -1;
 }
 
-/* Selection box title styling */
 main p {
-    font-size: 28px; /* Larger font size for emphasis */
-    font-weight: bold; /* Bold text for emphasis */
-    color: #fff; /* White text color */
-    margin-bottom: 30px; /* Space below the title */
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Text shadow for readability */
+    font-size: 28px;
+    font-weight: bold;
+    color: #fff;
+    margin-bottom: 30px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
-/* Links styling */
 main a {
-    display: block; /* Make each link a block-level element */
-    padding: 15px 25px; /* Padding inside the links */
-    margin: 15px 0; /* Margin between links */
-    text-decoration: none; /* Remove underline from links */
-    color: #fff; /* White text color */
-    background: linear-gradient(135deg, darkgreen, yellow); /* Diagonal gradient background */
-    border-radius: 25px; /* Rounded corners */
-    font-size: 18px; /* Font size for the links */
-    font-weight: bold; /* Bold text for emphasis */
-    transition: transform 0.3s, box-shadow 0.3s; /* Smooth transition effects */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Shadow for depth */
+    display: block;
+    padding: 15px 25px;
+    margin: 15px 0;
+    text-decoration: none;
+    color: #fff;
+    background: linear-gradient(135deg, darkgreen, yellow);
+    border-radius: 25px;
+    font-size: 18px;
+    font-weight: bold;
+    transition: transform 0.3s, box-shadow 0.3s;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 main a:hover,
 main a:focus {
-    transform: scale(1.05); /* Slightly scale up on hover */
-    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3); /* Enhance shadow on hover */
-    background: linear-gradient(135deg, darkgreen, yellow); /* Reverse gradient on hover */
+    transform: scale(1.05);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+    background: linear-gradient(135deg, darkgreen, yellow);
 }
 
-/* Footer styling */
 footer {
-    background-color:darkgreen;
+    background-color: darkgreen;
     color: #fff;
     text-align: center;
     padding: 10px 0;

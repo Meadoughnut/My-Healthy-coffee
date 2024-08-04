@@ -1,96 +1,86 @@
-/* General body styling */
 body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Modern font */
-    line-height: 1.6; /* Improve readability */
-    color: #333; /* Dark text color for contrast */
-    background: #f9f9f9; /* Light background color */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background: #f9f9f9;
 }
 
-/* Main content styling */
 main {
-    padding: 40px; /* Padding around main content */
-    text-align: center; /* Center align text */
-    background: #fff; /* White background for the main content */
-    border-radius: 15px; /* Rounded corners */
-    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2); /* Deep shadow for depth */
-    margin: 40px auto; /* Center the main content horizontally */
-    max-width: 1200px; /* Max width to keep content aligned */
-    position: relative; /* For adding pseudo-elements */
+    padding: 40px;
+    text-align: center;
+    background: #fff;
+    border-radius: 15px;
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+    margin: 40px auto;
+    max-width: 1200px;
+    position: relative;
 }
 
-/* Heading styling */
 main p {
-    font-size: 24px; /* Font size for introductory text */
-    font-weight: bold; /* Bold text for emphasis */
-    color: #333; /* Dark text color */
-    margin-bottom: 40px; /* Space below the paragraph */
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 40px;
 }
 
-/* Card container styling */
 main > div {
-    display: flex; /* Use flexbox for layout */
-    flex-direction: column; /* Stack items vertically */
-    background: #fafafa; /* Light background for cards */
-    border-radius: 15px; /* Rounded corners */
-    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15); /* Light shadow for cards */
-    margin-bottom: 30px; /* Margin between cards */
-    padding: 20px; /* Padding inside the card */
-    text-align: left; /* Align text to the left */
-    position: relative; /* For adding pseudo-elements */
-    overflow: hidden; /* Hide overflow content */
+    display: flex;
+    flex-direction: column;
+    background: #fafafa;
+    border-radius: 15px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+    margin-bottom: 30px;
+    padding: 20px;
+    text-align: left;
+    position: relative;
+    overflow: hidden;
 }
 
-/* Decorative element for cards */
 main > div::before {
-    content: ""; /* Empty content for the decorative shape */
-    position: absolute; /* Positioning it absolutely */
-    top: -20px; /* Position above the content */
-    left: -20px; /* Position to the left of the content */
-    width: calc(100% + 40px); /* Extend beyond the content width */
-    height: calc(100% + 40px); /* Extend beyond the content height */
-    background: radial-gradient(circle, rgba(0, 0, 0, 0.1), transparent); /* Radial gradient for subtle effect */
-    border-radius: 50%; /* Circular shape */
-    z-index: -1; /* Place behind the content */
+    content: "";
+    position: absolute;
+    top: -20px;
+    left: -20px;
+    width: calc(100% + 40px);
+    height: calc(100% + 40px);
+    background: radial-gradient(circle, rgba(0, 0, 0, 0.1), transparent);
+    border-radius: 50%;
+    z-index: -1;
 }
 
-/* Card title styling */
 main h2 {
-    font-size: 22px; /* Font size for card titles */
-    color: darkgreen; /* Purple color for titles */
-    margin-bottom: 15px; /* Space below the title */
+    font-size: 22px;
+    color: darkgreen;
+    margin-bottom: 15px;
 }
 
-/* List styling */
 main ol {
-    padding-left: 20px; /* Padding for the list */
-    margin-bottom: 20px; /* Space below the list */
-    font-size: 16px; /* Font size for list items */
-    color: #555; /* Slightly lighter text color */
+    padding-left: 20px;
+    margin-bottom: 20px;
+    font-size: 16px;
+    color: #555;
 }
 
-/* Image styling */
 main img {
-    width: 100%; /* Full width of the card */
-    max-width: 400px; /* Max width to ensure images don't get too large */
-    height: auto; /* Maintain aspect ratio */
-    border-radius: 10px; /* Rounded corners for images */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Shadow for images */
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
-/* Responsive card hover effect */
 main > div:hover {
-    background: #e8e8e8; /* Light gray background on hover */
-    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.3); /* Enhanced shadow on hover */
-    transform: translateY(-5px); /* Lift card on hover */
-    transition: all 0.3s ease; /* Smooth transition effect */
+    background: #e8e8e8;
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.3);
+    transform: translateY(-5px);
+    transition: all 0.3s ease;
 }
 
-/* Footer styling */
 footer {
-    background-color: #fff; /* White background for the footer */
-    border-top: 1px solid #ddd; /* Light border for separation */
-    padding: 10px 20px; /* Padding inside the footer */
-    text-align: center; /* Center align text */
-    color: #333; /* Dark text color */
-    font-size: 16px; /* Font size for footer text */
+    background-color: #fff;
+    border-top: 1px solid #ddd;
+    padding: 10px 20px;
+    text-align: center;
+    color: #333;
+    font-size: 16px;
 }
