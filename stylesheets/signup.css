@@ -2,11 +2,11 @@ body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     line-height: 1.6;
     color: #333;
-    background-image: url(/greenbackground.png);
-    background: linear-gradient(120deg, #f4f4f4, #e0e0e0);
+    background-image: url(/images/greenbackground.png);
     margin: 0;
     padding: 0;
 }
+
 
 main {
     display: flex;
